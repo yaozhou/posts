@@ -4,7 +4,6 @@ category : google-breakpad 客户端部署
 tagline: "Supporting tagline"
 tags : [调试,google-breakpad]
 ---
-{% include JB/setup %}
 
 
 # google-breakpad客户端部署(windows平台）

@@ -4,7 +4,6 @@ category : source index技术
 tagline: "Supporting tagline"
 tags : [调试,source index]
 ---
-{% include JB/setup %}
 
 ### 应用场合
 你是否碰到过这样的场合，远程调试时attach到测试人员的机器的程序上，或者在打开某个crash文件时，发现自己找不到其对应版本的pdb，并且本地的源码也已经发生了变化，而无法调试？虽然通过细致的管理（如保存每个版本的pdb，check out对应的源码)，可以解决此问题，但是很显然我们需要的是一个在exe,pdb,source code间的保持同步的机制。
